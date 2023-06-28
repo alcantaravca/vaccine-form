@@ -69,7 +69,11 @@ The layout was inspired by the project challenge on the freecodecamp website. Yo
 
 <p>
 
+<<<<<<< HEAD
 <a href="https://www.linkedin.com/in/victor-coutinho-de-alc%C3%A2ntara-8538aa263/">
+=======
+<a href="https://https://www.linkedin.com/in/victor-coutinho-de-alc%C3%A2ntara-8538aa263/">
+>>>>>>> 1df0a7df33d40b3db889568c40c74bcaf1ad4618
 <img alt="linkedin victor" src="https://img.shields.io/badge/Victor-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fvictor-coutinho-de-alc%25C3%25A2ntara-8538aa263%2F">
 </a>
 
