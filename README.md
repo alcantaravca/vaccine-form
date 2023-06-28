@@ -37,7 +37,7 @@
 ## 📘 About
 
 
-Vaccine form is a static web page project, made as one of the prerequisites for training the [Freecodecamp](https://https://www.freecodecamp.org/) responsive web design certification. In it, CSS tools were applied for responsiveness, as well as for styling. freeCodeCamp is a community of people from all around the world who are learning to code together.  <br/>
+Vaccine form is a static web page project, made as one of the prerequisites for training the [Freecodecamp](https://www.freecodecamp.org/) responsive web design certification. In it, CSS tools were applied for responsiveness, as well as for styling. freeCodeCamp is a community of people from all around the world who are learning to code together.  <br/>
 
 
 ## 🚀 Technologies
