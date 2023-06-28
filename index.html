@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Vaccine Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Vaccine Form</h1>
+    <p id="description">Thank you for your replies</p>
+
+    <form id="survey-form">
+      <div>
+        <label id="name-label" for="name">Name
+        </label>
+        <br>
+        <input class="form-text" type="text" placeholder="Enter Your Name" id="name" required><br>
+      </div>
+      <div>
+        <label id="email-label" for="email">Email
+        </label>
+        <br>
+        <input class="form-text" id="email" class="form-text" type="email" placeholder="Enter Your Email" required>
+        <br>
+      </div>
+      <div>
+        <label id="number-label" for="number">Age
+        </label>
+        <br>
+        <input class="form-text" type="number" placeholder="Age" id="number" name="number" min="10" max="110"><br>
+      </div>
+      <div>
+        <p>What your gender?</p>
+        <select class="form-text" id="dropdown" required>
+          <option disabled selected value>Select your gender</option>
+          <option value="female">Female</option>
+          <option value="Male">Male</option>
+          <option value="Transsexual">Transsexual</option>
+          <option value="nonbinary">Non-Binary</option>
+          <option value="prefernosay">Prefer not to say</option>
+        </select>
+        <br>
+      </div>
+      <div>
+        <p>What vaccine did you take?</p>
+        <input type="radio" name="vaccine" value="1" checked>
+        <label for="Jhonson">Johnson & Johnson</label>
+      </div>
+      <div>
+        <input type="radio" name="vaccine" value="2">
+        <label for="Astrazeneca">Astrazeneca</label>
+      </div>
+      <div>
+        <input type="radio" name="vaccine" value="3">
+        <label for="Pfizer">Pfizer</label>
+      </div>
+      <div>
+        <input type="radio" name="vaccine" value="Covaxx">
+        <label for="Covaxx">Covaxx</label>
+      </div>
+      <div>
+        <input type="radio" name="vaccine" value="Novavax">
+        <label for="Novavax">Novavax</label>
+      </div>
+      <div>
+        <input type="radio" name="vaccine" value="Other">
+        <label for="other">Other</label>
+      </div>
+      <div>
+        <input type="radio" name="vaccine" value="none">
+        <label for="none">None</label>
+      </div>
+      <br>
+      <p>What other vaccines have you had in the last two years?</p>
+      <div>
+        <input type="checkbox" name="othervaccines" value="yellowfever">
+        <label for="yellowfever">Yellow Fever Vaccine</label>
+      </div>
+      <div>
+        <input type="checkbox" name="othervaccines" value="influenza">
+        <label for="influenza">Influenza Vaccine</label>
+      </div>
+      <div>
+        <input type="checkbox" name="test" value="Meningococcal">
+        <label for="Meningococcal">MenACWY vaccine</label>
+      </div>
+      <div>
+        <input type="checkbox" name="test" value="td">
+        <label for="td">Td (tetanus and diphtheria) vaccine</label>
+      </div>
+      <div>
+        <input type="checkbox" name="test" value="tdap">
+        <label for="tdap">Tdap (tetanus, diphtheria and acellular pertussis) vaccine</label>
+      </div>
+      <div>
+        <input type="checkbox" name="test" value="other">
+        <label for="other">Other(s)</label>
+      </div>
+      <div>
+        <input type="checkbox" name="test" value="none">
+        <label for="none">None</label>
+      </div>
+      <br>
+      <div>
+      <label for="comments">Any Comments?</label><br>
+        <textarea class="form-text" id="comments" name="comments" placeholder="If you want, leave your comments here.."></textarea>
+      </div>
+      <div>
+        <button type="submit" id="submit"> Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
